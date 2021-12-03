@@ -6,7 +6,8 @@ Artstation-Artistic-face-HQ (AAHQ) is a high-quality image dataset of artistic-f
 
 > **BlendGAN: Implicitly GAN Blending for Arbitrary Stylized Face Generation**<br>
 > Mingcong Liu, Qiang Li, Zekui Qin, Guoxin Zhang, Pengfei Wan, Wen Zheng<br>
-> https://arxiv.org/abs/2110.11728
+> https://arxiv.org/abs/2110.11728 <br>
+> source code: https://github.com/onion-liu/BlendGAN
 
 Images in this dataset are collected from the "portraits" channel of [Artstation](https://www.artstation.com). Since the original images are subject to copyright, we do not make them available directly. Instead, we provide URLs and associated face landmarks from the dataset. The dataset consists of about 25,000 high-quality artistic images (**less than the number in the paper because the original URLs of some images are invalid**). It offers a lot of variety in terms of painting styles, color tones and face attributes.
 
