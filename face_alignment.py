@@ -120,30 +120,3 @@ if __name__ == '__main__':
 
     print('num of saved images: ', total)
     print('Done!')
-
-
-    # imgnum = len(imgnames)
-    # total = imgnum
-    #
-    # for idx in tqdm(range(imgnum)):
-    #     aligned_name = imgnames[idx]
-    #
-    #     raw_name = js[aligned_name]['raw_name']
-    #     landmarks = js[aligned_name]['landmarks']
-    #
-    #     raw_img_path = os.path.join(args.raw_dir, raw_name)
-    #     aligned_img_path = os.path.join(args.save_dir, aligned_name)
-    #
-    #     if not os.path.exists(raw_img_path):
-    #         print('original image not exist: %s' % raw_img_path)
-    #         total -= 1
-    #         continue
-    #     if os.path.exists(aligned_img_path):
-    #         continue
-    #
-    #     img = PIL.Image.open(raw_img_path)
-    #     img_aligned = image_align(img, landmarks, output_size=1024, transform_size=4096, enable_padding=True)
-    #     img.save(os.path.join(args.save_dir, aligned_name))
-    #
-    # print('num of saved images: ', total)
-    # print('Done!')
